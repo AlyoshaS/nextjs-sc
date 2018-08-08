@@ -15,6 +15,11 @@ const IndexPage = ({ posts }) => (
   </Layout>
 )
 
+/*
+getInitialProps: fetches all of the required data needed
+for this page to render.
+*/
+
 IndexPage.getInitialProps = async ({ req }) => {
   const res = await getPosts()
   const json = await res.json()
