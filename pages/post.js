@@ -1,8 +1,6 @@
 import React from 'react'
-// import Link from 'next/link'
-// import styled from 'styled-components'
-import Layout from 'layouts/Main';
-import { getPost } from 'api/posts'
+import Layout from '../layouts/Main';
+import { getPost } from '../api/posts'
 
 const PostPage = ({ post }) => (
   <Layout>
