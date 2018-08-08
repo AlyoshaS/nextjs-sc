@@ -1,8 +1,11 @@
 import { injectGlobal } from 'styled-components'
 
 injectGlobal`
-  ul {
-    margin: 0;
-    padding: 0;
+  *{
+    box - sizing: border - box;
   }
+  html, body, #demo {
+    height: 100 % ;
+    width: 100 % ;
+    margin: 0;
 `
